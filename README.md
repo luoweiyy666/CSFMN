@@ -16,7 +16,7 @@
 ### Installation
 ```
 # Clone the repo
-
+git clone https://github.com/luoweiyy666/CSFMN.git
 # Install dependent packages
 cd CSFMN
 pip install -r requirements.txt
@@ -46,6 +46,8 @@ python basicsr/test.py -opt options/test/CSFMN/test_benchmark_x4.yml
 
   We have provided three ways to download our checkpoints.
     -  1.Download via the Google Drive links shown below.
+- **Efficient SR Results**
+<img width="800" src="./figs/efficient_sr.png">
 
 ### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
