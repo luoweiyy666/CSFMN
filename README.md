@@ -29,15 +29,15 @@ You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/b
 Run the following commands for training:
 ```
 # train CSFMN for x4 effieicnt SR
-python basicsr/train.py -opt options/train/SAFMN/train_DIV2K_X4.yml
+python basicsr/train.py -opt options/train/CSFMN/train_DIV2K_X4.yml
 ```
 ### Testing 
 - Download the pretrained models.
 - Download the testing dataset.
 - Run the following commands:
 ```
-# test SAFMN for x4 efficient SR
-python basicsr/test.py -opt options/test/SAFMN/test_benchmark_x4.yml
+# test CSFMN for x4 efficient SR
+python basicsr/test.py -opt options/test/CSFMN/test_benchmark_x4.yml
 ```
 - The test results will be in './results'.
 
