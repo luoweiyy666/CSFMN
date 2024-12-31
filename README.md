@@ -11,12 +11,10 @@
 ### Requirements
 > - Python 3.8, PyTorch >= 1.11
 > - BasicSR 1.4.2
-> - Platforms: Ubuntu 18.04, cuda-11
+> - Platforms: cuda-11
 
 ### Installation
 ```
-# Clone the repo
-git clone https://github.com/luoweiyy666/CSFMN.git
 # Install dependent packages
 cd CSFMN
 pip install -r requirements.txt
