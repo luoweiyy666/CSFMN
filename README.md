@@ -16,7 +16,6 @@
 ### Installation
 ```
 # Install dependent packages
-cd CSFMN
 pip install -r requirements.txt
 # Install BasicSR
 python setup.py develop
